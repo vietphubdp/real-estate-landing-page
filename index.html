@@ -591,9 +591,7 @@
             <!-- Subscription -->
             <div id="contact" class="subscription">
                 <div class="content">
-                    <div
-                        class="body wow animate__animated animate__slideInLeft"
-                    >
+                    <div class="body wow animate__slideInLeft">
                         <div class="info line-clamb">
                             <h2 class="sub-title">
                                 Subscribe to our Newsletter!
@@ -709,7 +707,9 @@
         </footer>
         <script src="./assets/js/wow.min.js"></script>
         <script>
-            new WOW().init();
+            new WOW({
+                animateClass: "animate__animated",
+            }).init();
         </script>
     </body>
 </html>
