@@ -94,6 +94,11 @@
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
         <!-- Style -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- Lib -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     </head>
     <body>
         <!-- Header -->
@@ -586,7 +591,9 @@
             <!-- Subscription -->
             <div id="contact" class="subscription">
                 <div class="content">
-                    <div class="body">
+                    <div
+                        class="body wow animate__animated animate__slideInLeft"
+                    >
                         <div class="info line-clamb">
                             <h2 class="sub-title">
                                 Subscribe to our Newsletter!
@@ -700,5 +707,9 @@
                 </div>
             </div>
         </footer>
+        <script src="./assets/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>
